@@ -34,7 +34,6 @@
 		1314870B1FD1CE1C00183621 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131487011FD1CE1C00183621 /* KeyboardViewController.m */; };
 		1314870D1FD1CE1C00183621 /* ModeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 131487041FD1CE1C00183621 /* ModeSelector.m */; };
 		1314870E1FD1CE1C00183621 /* SelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 131487061FD1CE1C00183621 /* SelectorCell.m */; };
-		131487221FD1CE2900183621 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 131487101FD1CE2900183621 /* MainMenu.xib */; };
 		131487241FD1CE2900183621 /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 131487141FD1CE2900183621 /* logo_small.png */; };
 		131487261FD1CE2900183621 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 131487161FD1CE2900183621 /* main.css */; };
 		131487271FD1CE2900183621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 131487171FD1CE2900183621 /* main.m */; };
@@ -334,7 +333,7 @@
 		638DB0901FC0E6EF00346159 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					63448A2B1FD0547300CDC5F0 = {
@@ -354,7 +353,7 @@
 			};
 			buildConfigurationList = 638DB0931FC0E6EF00346159 /* Build configuration list for PBXProject "Unigem" */;
 			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -385,7 +384,6 @@
 				131487291FD1CE2900183621 /* ModeCell.xib in Resources */,
 				131487311FD1CEF300183621 /* MainMenu.xib in Resources */,
 				133603E31FD5D66D00225E8E /* InfoPlist.strings in Resources */,
-				131487221FD1CE2900183621 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +537,7 @@
 			baseConfigurationReference = 131486C91FD1CDEE00183621 /* account.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -548,6 +547,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -555,8 +555,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -596,6 +598,7 @@
 			baseConfigurationReference = 131486C91FD1CDEE00183621 /* account.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -605,6 +608,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -612,8 +616,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
